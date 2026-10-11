@@ -1,0 +1,19 @@
+{
+  "name": "it-helpdesk-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/api.js",
+  "scripts": {
+    "start": "node src/api.js",
+    "eval": "node eval_5_turns.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "js-tiktoken": "^1.0.21",
+    "openai": "^7.27.0"
+  }
+}
